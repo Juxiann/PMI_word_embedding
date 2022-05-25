@@ -6,7 +6,7 @@ A subset of the Wikipedia corpus of 126 million words is used here. You can crea
 
 ## Method
 
-Using the Wikipedia data with a symmetric context window size of 5, the pointwise mutual information (PMI) matrix is computed. Where the (i,j)-th entry is
+With a symmetric context window size of 5, the pointwise mutual information (PMI) matrix is computed. Where the (i,j)-th entry is
 
 $$
 M_{ij} = \log\left( \frac{(N^p(w_i, w_j)+1)\cdot N(S^p)}{N^p(w_i)\cdot N^p(w_j)} \right)
